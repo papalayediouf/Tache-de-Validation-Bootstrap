@@ -1,0 +1,36 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap') */
+
+*{
+    /* border: 1px solid red; */
+}
+
+
+
+h1 {
+   
+    color: #37373f;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: ;
+    font-style: normal;
+    font-size: 60px;
+
+}
+
+/* nbr-animation */
+.bg-noir{
+    background-color: rgb(1, 1, 1,0.7);
+    z-index: 3;
+    height: 60vh;
+    width: 100%;
+}
+
+#nbr-animation{
+    background-image: url(image/stats-bg.jpg);
+    background-attachment: ;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
