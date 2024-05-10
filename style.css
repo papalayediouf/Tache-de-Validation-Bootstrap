@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+
+
+
+/* Home */
+
+#Home{
+    background-color: #fff;
+}
+
+.enjoy-titre{
+    font-size: 60px;
+    font-weight: 700;
+    color: #37373f;
+}
+.icon-1{
+    font-size: 20px;
+}
+
+@media screen and (max-width:999px) {
+    .reverse{
+        flex-direction: column-reverse !important;
+    }
+
+    .enjoy-titre , .enjoy-text {
+        text-align: center;
+    }
+    .roww-btn{
+        display: flex !important;
+        width: 70%px;
+        margin: auto;
+
+    }
+    .text{
+        text-align: end !important;
+
+    }
+}
+.reverse{
+
+}
+
+/* About */
+
+.ul-check li{
+
+    list-style-type: none;
+    
+}
+li::before{
+    content: "";
+}
+
+#absolute-table{
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    bottom: 35px;
+    right: ;
+    left: 10%;
+}
+
+.green{
+    background: red;
+  }
+.circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(203, 11, 11, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 8, 8, 0);
+    }
+}
+    
+
+/* ******************************************************************************************* */
+
+/* commence tons css à partir d'ici */
