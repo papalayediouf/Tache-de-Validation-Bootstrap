@@ -9,6 +9,14 @@
 
 
 
+/* Navbar */
+
+.yummy-titre{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
 /* Home */
 
 #Home{
@@ -16,7 +24,7 @@
 }
 
 .enjoy-titre{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #37373f;
 }
@@ -82,12 +90,15 @@ li::before{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 43%;
+    left: 45%;
   }
 
 .pulse {
     animation: pulse-animation 2s infinite;
+}
+.marge2{
+    margin-left: 20px;
 }
 
 @keyframes pulse-animation {
@@ -97,6 +108,39 @@ li::before{
     100% {
       box-shadow: 0 0 0 20px rgba(0, 8, 8, 0);
     }
+}
+/*  */
+@media screen and (max-width:999px) {
+    .marge{
+        margin: 0 !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .marge2{
+        margin-left: 0px !important;
+    }
+}
+
+/* WHI */
+
+#whi{
+    background-color: #eee !important;
+}
+
+/* counter */
+
+#counter{
+    background:url(image/stats-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.black{
+    background-color: rgb(1, 1, 1,0.7);
+    height: 100%;
+    width: 100%;
+    padding: 100px;
 }
     
 
