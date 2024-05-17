@@ -65,7 +65,7 @@ li::before{
     text-align: center;
     padding: 10px;
     bottom: 35px;
-    right: ;
+    /* right: ; */
     left: 10%;
 }
 
@@ -103,3 +103,95 @@ li::before{
 /* ******************************************************************************************* */
 
 /* commence tons css à partir d'ici */
+/* Ma parti css */
+.titre{
+    color: rgba(128, 128, 128, 0.963);
+}
+.parti1{
+    background-image:url(image/events-1.jpg) ;
+    background-size: cover;
+ 
+}
+/* .parti1::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+} */
+.parti2{
+    background-image:url(image/events-2.jpg) ;
+    background-size: cover;
+}
+.parti3{
+    background-image:url(image/events-3.jpg) ;
+    background-size: cover;
+}
+/* partie chef */
+.master{
+    color: rgba(128, 128, 128, 0.877);
+}
+.lorem{
+    color: gray;
+}
+.icone-chef{
+    position: absolute;
+    right: 37rem;
+    top: 130rem;
+    /* opacity: 0; */
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 3%;
+}
+/* #ico:hover{
+    background-color:rgba(255, 255, 255, 0.728) ;
+} */
+#chef{
+    background-color: #eee;
+}
+.info{
+    background-color: #fff;
+}
+/* booking */
+#booking{
+    background-color: rgba(55, 55, 63, 0.04);;
+}
+/* gallerie */
+#galerie{
+    background-color: #eee;
+}
+body {
+    position: relative;
+    height: 100%;
+  }
+
+
+  swiper-container {
+    width: 20%;
+    height: 50%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 30%;
+    height: 50%;
+    object-fit: cover;
+  }
+/* contacte */
+.info-item{
+    background-color: #eee;
+}
