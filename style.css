@@ -153,8 +153,9 @@ li::before{
 }
 .parti1{
     background-image:url(image/events-1.jpg) ;
-    background-size: cover;
- 
+    background-size: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
 }
 /* .parti1::after{
     content: "";
@@ -201,6 +202,17 @@ li::before{
 .info{
     background-color: #fff;
 }
+.wave::after{
+    /* position: absolute; */
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(image/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
 /* booking */
 #booking{
     background-color: rgba(55, 55, 63, 0.04);;
@@ -237,5 +249,28 @@ body {
   }
 /* contacte */
 .info-item{
-    background-color: #eee;
+    background-color: #eeeeeebe;
+}
+/* ---footer--- */
+#fin{
+    font-size: 25px;
+    color: #eee;
+}
+/* #footer,p{
+    color: #eeeeeed2;
+} */
+.grey{
+    color: #eeeeeed2;
+}
+a{
+    text-decoration: none;
+}
+#rond{
+    color: #eeeeeebe;
+    border: 1px solid #eeeeeea1;
+    border-radius: 50px;
+}
+#rond:hover{
+    border: 1px solid #fff;
+    color: #fff;
 }
