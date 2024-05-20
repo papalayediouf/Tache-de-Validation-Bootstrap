@@ -180,12 +180,21 @@ li::before{
     .marge2{
         margin-left: 0px !important;
     }
+    .whu{
+        margin: 0 !important ;
+        width: 100% !important;
+    }
+    .pwhu{
+        padding: 0 !important;
+    }
 }
 
 /* WHI */
 
 #whi{
     background-color: #eee !important;
+    height: auto;
+    padding-bottom: 8px !important;
 }
 .cal:hover{
     transform: scale(1.1) !important;
@@ -225,8 +234,11 @@ li::before{
 .text-bouton:hover{
     color: red;
 }
-.text-bouton:active button{
+.text-bouton button:focus{
     background-color: red  !important;
+}
+.text-bouton button{
+    outline: none;
 }
 
 
