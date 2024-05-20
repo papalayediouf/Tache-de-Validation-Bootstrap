@@ -196,6 +196,7 @@ li::before{
     background-color: #eee !important;
     height: auto;
     padding-bottom: 8px !important;
+    
 }
 .cal:hover{
     transform: scale(1.1) !important;
@@ -561,6 +562,7 @@ h2{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
     margin-top: 50px;
+    padding-left: 25px;
 }
 .info{
     background-color: #fff;
@@ -637,3 +639,9 @@ a{
     border: 1px solid #fff;
     color: #fff;
 }
+
+
+
+/* carrousel 2 */
+
+
