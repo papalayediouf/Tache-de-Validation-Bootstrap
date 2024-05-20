@@ -6,7 +6,14 @@
 
 
 
+/* Police */
 
+.police{
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #37373f;
+}
 
 
 /* Navbar */
@@ -16,12 +23,52 @@
     font-size: 24px;
 }
 
+.nav-item{
+    border-bottom: 2px solid red ;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: none;
+}
+.nav-item:hover{
+    border-bottom:2px solid ;
+    border-color: red;
+    transform: scale(1.1);
+    /* background-color: red  ; */
+    transition: 0.3s;
+
+}
+
+.nav-item:active{
+    border-bottom: 2px solid red ;
+
+}
+.nav-link{
+    
+    
+}
+
 
 /* Home */
 
 #Home{
     background-color: #fff;
+
+
+    animation: aanim linear;
+    animation-timeline: view();
+    animation-range-start: cover 4%;
+    animation-range-end: contain 20%;
 }
+@keyframes aanim {
+    from{
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to{
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 
 .enjoy-titre{
     font-size: 50px;
@@ -56,6 +103,22 @@
 }
 
 /* About */
+
+.anime1{
+   
+   
+}
+.anime2{
+    
+   
+}
+
+#About{
+
+}
+
+
+
 
 .ul-check li{
 
@@ -125,6 +188,10 @@ li::before{
 
 #whi{
     background-color: #eee !important;
+}
+.cal:hover{
+    transform: scale(1.1) !important;
+    transition: 0.6s;
 }
 
 /* counter */
