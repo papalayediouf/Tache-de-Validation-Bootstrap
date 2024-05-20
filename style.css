@@ -10,9 +10,10 @@
 
 .police{
     font-family: "Caveat", cursive;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     color: #37373f;
+    text-transform: uppercase;
 }
 
 
@@ -486,6 +487,37 @@ li::before{
 	animation: caption 12300ms infinite 7200ms;	
   }
   /* Calculate AUTOPLAY for CAPTION - END */
+
+
+
+  /* sscccccccccccccccccallllllllllle */
+
+
+  svg{
+    position: absolute;
+    top: 45%;
+  }
+ .scall2:hover
+ {
+    transform: scale(1.1) !important;
+    transition: 0.6s;
+    display: ;
+  }
+
+  .icccone{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px;
+    border-radius: 5px;
+    display:none !important ;
+  }
+  .scall2:hover .icccone{
+    display: flex !important;
+  }
+
   
   
   
@@ -544,6 +576,9 @@ li::before{
 } */
 #chef{
     background-color: #eee;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 50px;
 }
 .info{
     background-color: #fff;
