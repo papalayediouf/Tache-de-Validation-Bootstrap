@@ -328,7 +328,7 @@ li::before{
 
 .image {
 	width: 100%;
-	height: ;
+	/* height: ; */
   }
   .radio {
 	/*display: none;*/
@@ -532,8 +532,9 @@ li::before{
 }
 .parti1{
     background-image:url(image/events-1.jpg) ;
-    background-size: cover;
- 
+    background-size: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
 }
 /* .parti1::after{
     content: "";
@@ -549,31 +550,12 @@ li::before{
     background-image:url(image/events-3.jpg) ;
     background-size: cover;
 }
+h2{
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
 /* partie chef */
-.master{
-    color: rgba(128, 128, 128, 0.877);
-}
-.lorem{
-    color: gray;
-}
-.icone-chef{
-    position: absolute;
-    right: 37rem;
-    top: 130rem;
-    /* opacity: 0; */
-    border-radius: 4px;
-    transition: 0.5s;
-    background: rgba(255, 255, 255, 0.3);
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
-    width: 3%;
-}
-/* #ico:hover{
-    background-color:rgba(255, 255, 255, 0.728) ;
-} */
 #chef{
     background-color: #eee;
     padding-top: 50px !important;
@@ -582,6 +564,17 @@ li::before{
 }
 .info{
     background-color: #fff;
+}
+.wave::after{
+    /* position: absolute; */
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(image/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
 }
 /* booking */
 #booking{
@@ -619,5 +612,28 @@ body {
   }
 /* contacte */
 .info-item{
-    background-color: #eee;
+    background-color: #eeeeeebe;
+}
+/* ---footer--- */
+#fin{
+    font-size: 25px;
+    color: #eee;
+}
+/* #footer,p{
+    color: #eeeeeed2;
+} */
+.grey{
+    color: #eeeeeed2;
+}
+a{
+    text-decoration: none;
+}
+#rond{
+    color: #eeeeeebe;
+    border: 1px solid #eeeeeea1;
+    border-radius: 50px;
+}
+#rond:hover{
+    border: 1px solid #fff;
+    color: #fff;
 }
