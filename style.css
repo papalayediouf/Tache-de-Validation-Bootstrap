@@ -520,18 +520,44 @@ li::before{
   position: relative;
 }
 .parti1{
-  position: relative;
+  /* position: relative !important; */
+  background-image: url(image/events-1.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-color: #eee;
+
+  height: 100vh !important;
+}
+.parti2{
+  /* position: relative !important; */
+  background-image: url(image/events-2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-color: #eee;
+
+  height: 100vh !important;
+}
+.parti3{
+  /* position: relative !important; */
+  background-image: url(image/events-3.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-color: #eee;
+
+  height: 100vh !important;
 }
 .parti-blanc{
-  position: absolute;
-  /* background-color: #37373f; */
-  top: -40px;
+  /* position: absolute;
+  background-color: #37373f;
+  /* top: -40px; */
   width: 85%;
+  /* font-size: 15px; */ */
+  /* margin-top: 20rem; */
 }
-/* .even{
-  height: 30rem;
+.even{
+  /* height: 10rem; */
   background-color: #eee;
-} */
+}
 .prix{
     font-size: 35px;
 }
@@ -653,9 +679,11 @@ a{
         height: 30rem;
     }
 } */
-@media screen  and (min-width:300px) and (max-width:500px) {
-  
-}
+/* @media screen  and (min-width:300px) and (max-width:500px) {
+  .event{
+    height: 30rem !important;
+  }
+} */
 
 
 /* carrousel 2 */

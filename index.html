@@ -819,17 +819,17 @@
     <!-- *************************************************************************************************************** -->
     <!-- commence le html à partir d'ici -->
     <!-- ----ma  section html------>
-    <section id="event">
+    <section id="event" class="d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <p class="text-center p-4 titre fw-bold">EVENTS</p>
                 <h2 class="text-center">Share <span class="text-danger">Your Moments</span> In Our Restaurant</h2>
             </div>
-            <div class="row gap-3">
-                <div class="col parti1">
+            <div class="row gy-1">
+                <div class="col p-0 parti1 me-1 d-flex align-items-end p-2">
                     <div class="div">
                         <div class="">
-                            <img src="image/events-1.jpg" alt="" class="w-100  even">
+                            <!-- <img src="image/events-1.jpg" alt="" class="w-100  even"> -->
                           </div>
                           <div class="parti-blanc">
                             <p class="fw-bold text-white  mt-5">Custom parties</p>
@@ -839,9 +839,9 @@
                     </div>
                  
                 </div>
-                <div class="col  parti1">
+                <div class="col p-0 parti2 me-1 d-flex align-items-end p-2">
                   <div>
-                    <img src="image/events-2.jpg" alt="" class="w-100 even ">
+                    <!-- <img src="image/events-2.jpg" alt="" class="w-100 even "> -->
                   </div>
                   <div class="parti-blanc">
                     <p class="fw-bold text-white mt-5">Custom parties</p>
@@ -849,9 +849,9 @@
                     <p class="fw-bold  smok">Quo corporis voluptas ea ad. Cosecteture invetore sapiente ipsum voluptaseos omisfaceres. Enim facilis veritatis id est rem repudiandadae nulla expedita quas.</p>
                   </div>
                 </div>
-                <div class="col  parti1">
+                <div class="col p-0 parti3 d-flex align-items-end p-2">
                   <div>
-                    <img src="image/events-3.jpg" alt="" class="w-100 even">
+                    <!-- <img src="image/events-3.jpg" alt="" class="w-100 even"> -->
                   </div>
                   <div class="parti-blanc">
                     <p class="fw-bold text-white  mt-5">Custom parties</p>
@@ -861,6 +861,60 @@
                 </div>
                 
             </div>
+            
+        </div>
+    </section>
+    <!-- parti slider responsive -->
+    <section id="event" class="d-lg-none">
+        <div class="container">
+            <div class="row">
+                <p class="text-center p-4 titre fw-bold">EVENTS</p>
+                <h2 class="text-center">Share <span class="text-danger">Your Moments</span> In Our Restaurant</h2>
+            </div>
+            <div class="row gy-1">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class=" p-0 parti1 me-1 d-flex align-items-end p-2">
+                            <!-- <div class="div"> -->
+                                  <div class="parti-blanc">
+                                    <p class="fw-bold text-white  mt-5">Custom parties</p>
+                                    <P class="fw-bold text-white   border-bottom border-danger prix">$99</P>
+                                    <p class="fw-bold  smok">Quo corporis voluptas ea ad. Cosecteture invetore sapiente ipsum voluptaseos omisfaceres. Enim facilis veritatis id est rem repudiandadae nulla expedita quas.</p>
+                                  </div>
+                            <!-- </div> -->
+                         
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class=" p-0 parti2 me-1 d-flex align-items-end p-2">
+                            <div class="parti-blanc">
+                              <p class="fw-bold text-white mt-5">Custom parties</p>
+                              <P class="fw-bold text-white  border-bottom border-danger prix">$99</P>
+                              <p class="fw-bold  smok">Quo corporis voluptas ea ad. Cosecteture invetore sapiente ipsum voluptaseos omisfaceres. Enim facilis veritatis id est rem repudiandadae nulla expedita quas.</p>
+                            </div>
+                          </div>                      </div>
+                      <div class="carousel-item">
+                        <div class=" p-0 parti3 d-flex align-items-end p-2">
+                            <div class="parti-blanc">
+                              <p class="fw-bold text-white  mt-5">Custom parties</p>
+                              <P class="fw-bold text-white   border-bottom border-danger prix">$99</P>
+                              <p class="fw-bold  smok">Quo corporis voluptas ea ad. Cosecteture invetore sapiente ipsum voluptaseos omisfaceres. Enim facilis veritatis id est rem repudiandadae nulla expedita quas.</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
         </div>
     </section>
 
